@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  font-family: sans-serif;
+}
+.container {
+  background-image: linear-gradient(hsla(180, 92%, 10%, 0.836),hsla(240, 94%, 14%, 0.764)) ,url('./images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+  position:relative;
+}
+
+header {
+  margin:0 24px;
+  padding: 8px 24px;
+  display:flex;
+  justify-content: space-between;
+  color:white;
+
+}
+
+nav {
+  justify-self: flex-end;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  color:white;
+  column-gap: 32px;
+  border-bottom: 2px solid white;
+  font-size:1.2rem;
+}
+
+.callnow {
+display: flex;
+justify-content: flex-start;
+align-content: flex-start ;
+align-items: center;
+}
+
+.calls {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.hero-section {
+  margin:0 24px;
+  padding: 48px ;
+  color:white;
+}
+
+.hero-section h1 {
+  line-height: 1.5;
+  margin-bottom: 16px;
+  font-size:4rem;
+}
+
+.hero-section button {
+  background-color: transparent;
+  border-radius: 36px;
+  padding:24px 48px;
+  text-transform: uppercase;
+  color:white;
+  border : 2px solid white;
+  font-size:1.5rem;
+}
+.child-container-1 {
+  
+  position:absolute;
+  background-color: rgb(96, 86, 129);
+  top :30%;
+  right:10%;
+  font-size:1rem;
+  
+ 
+}
+.child-container-1-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  margin: 8px 12px;
+  padding:24px;
+  color:white;
+ 
+}
+.line-ball {
+  position:relative;
+  transform: scaleY(-1);
+  
+}
+.absol {
+  position:absolute;
+  bottom:-55%;
+  left:70%;
+}
+.line {
+  position:absolute;
+  top: 25%;
+  left :55%;  
+  border-left: 1px solid rgb(252, 252, 252);
+  height: 90px;
+}
+.ball {
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.child-container-2 {
+  
+  position:absolute;
+  background-color: rgb(96, 86, 129);
+  top :60%;
+  left:55%;
+  font-size:1rem;
+  
+ 
+}
+.child-container-2-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  margin: 8px 12px;
+  color:white;
+  padding:24px; 
+ 
+}
+.line-2 {
+  position:absolute;
+  top: 55%;
+  left :100%;  
+  border-bottom: 1px solid rgb(252, 252, 252);
+  width: 140px;
+}
+
+.ball-2 {
+  position:absolute;
+  top: 62%;
+  right :-60%; 
+
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
